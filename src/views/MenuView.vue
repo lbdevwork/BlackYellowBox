@@ -2,7 +2,7 @@
     <div class="page-menu">
       <h1 class="page-title">App Menu</h1>
       <div class="card-grid">
-        <router-link to="/searchview" class="card" v-for="(option, index) in options" :key="index">
+        <router-link to="/calendar" class="card" v-for="(option, index) in options" :key="index">
           <div class="card-content">
             <h2>{{ option.title }}</h2>
             <p>{{ option.description }}</p>
@@ -30,7 +30,7 @@
     {
       title: 'See Task List',
       description: 'Manage your tasks and to-do list.',
-      route: '/tasks',
+      route: '/calendar',
     },
     {
       title: 'Suggestion',

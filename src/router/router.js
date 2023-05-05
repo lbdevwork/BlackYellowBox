@@ -5,7 +5,8 @@ import SearchView from "../views/MainView.vue";
 import ProfileView from "../views/ProfileView.vue";
 import AddEditPerson from "../views/AddEditView.vue";
 import MenuView from "../views/MenuView.vue";
-
+import CalendarView from "../views/SchedueleView.vue";
+import TasksView from "../views/TasksView.vue";
 
 const routes = [
   {
@@ -35,6 +36,16 @@ const routes = [
     name: "AddEditPerson",
     component: AddEditPerson,
     
+  },
+  {
+    path: "/calendar",
+    name: "Calendar",
+    component: CalendarView,
+  },
+  {
+    path: "/tasks",
+    name: "Tasks",
+    component: TasksView,
   },
 ];
 
